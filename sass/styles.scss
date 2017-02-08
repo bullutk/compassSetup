@@ -1,0 +1,31 @@
+$color: #3f88d1;
+
+#parent{
+	width: 75%;
+	float: left;
+	background-color: red;
+	.child{
+		width: 50%;
+		margin: auto;
+		background-color: white;
+		ul{
+			list-style: none;
+			li{
+				font-size: 20px;
+				color: red;
+			}
+		}
+	}
+}
+
+#parent2{
+	width: 25%;
+	float: left;
+	background-color: blue;
+	li{
+		font-size: 60px;
+		color: white;
+	}
+}
+
+

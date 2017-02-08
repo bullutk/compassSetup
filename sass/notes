@@ -1,0 +1,20 @@
+1. what does compass do?
+-watches a specific folder based on config.rb
+
+2.What does sass do?
+-lazy
+-is a syntax, just like jsx. its useful to devs to write css fast
+-MUST be turned into css to work
+
+3. what is config.rb
+-ruby file
+-tells compass what to do
+-compass is looking for it
+-tells compass what to look for(scss)
+	-where to look (/sass/)
+	-where to write (../public/)
+
+4. why is the file in public/stylesheets called styles.css?
+-because compass is:
+	1.watching the /sass directory
+	2. there is a file called "styles" that is a .scss file
